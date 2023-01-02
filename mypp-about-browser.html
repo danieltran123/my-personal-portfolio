@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<title>My Personal Portfolio - About</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/x-icon" href="https://th.bing.com/th/id/R.a1c337aa5a7ffb41f16819b020dbef20?rik=6g4LtwwTxnGczQ&amp;riu=http%3a%2f%2fwww.favicon.cc%2flogo3d%2f210121.png&amp;ehk=rfT0dY8san4%2bWgwJ6CzB5umhC1DSBLS0Rk5jsjQwfYY%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        color: white;
+    }
+    .banner {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('https://img.freepik.com/free-photo/workspace-computer-pencil-peg-board-coffee-table-with-loft-wall_35674-1301.jpg?size=626&ext=jpg');
+        background-size: cover;
+        background-position: center;
+    }
+        .navbar {
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        padding: 35px 0;
+    }
+    .navbar h1 {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    .navbar ul li {
+        list-style: none;
+        display: inline;
+        margin: 0 20px;
+        position: relative;
+    }
+    .navbar ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    .navbar ul li::after {
+        content: '';
+        height: 3px;
+        width: 0;
+        background: #009688;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+    }
+    .navbar ul li:hover::after {
+        width: 100%;
+    }
+    .content {
+        text-align: center;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+        width: 100%;
+    }
+    .content h2 {
+        font-size: 70px;
+        margin-top: 80px;
+    }
+    .content p {
+        margin: 20px auto;
+        font-size: 25px;
+    }
+    button {
+        background: transparent;
+        border: 2.5px solid #009688;
+        border-radius: 25px;
+        padding: 15px 0;
+        margin: 20px 10px;
+        width: 200px;
+        overflow: hidden;
+        cursor: pointer;
+        font-weight: bold;
+        transition: 0.5s;
+        font-size: 15px;
+    }
+    button:hover {
+        background: #009688;
+    }
+</style>
+</head><body>
+    <div class="banner">
+        <header>
+            <div class="navbar">
+                <h1>Daniel Tran</h1>
+                <ul>
+                                 <li><a href="mypp-browser.html">Home</a></li>
+                <li><a href="mypp-about-browser.html">About</a></li>
+                <li><a href="mypp-browser.html">Portfolio</a></li>
+                <li><a href="#">Hello!</a></li>
+                 <li><a href="#">Goodbye!</a></li>
+                </ul>
+        </div></header><div class="content">
+    <h2>ABOUT ME</h2>
+    <p>I am learning how to code HTML, CSS, and JS. I really want to be a web<br>developer and make games.</p>
+    <div class="greeting-buttons">
+        <button type="button">HELLO!</button>
+        <button type="button">GOODBYE!</button>
+    </div>
+</div>
+    
+    </div>
+</body></html>
